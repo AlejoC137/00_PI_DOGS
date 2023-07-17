@@ -1,0 +1,64 @@
+.general {
+  font-family: 'Nunito';
+  margin: 20px;
+}
+.iWH {
+  width: 107px;
+}
+
+.iLifeSpan {
+  width: 175px;
+}
+
+  .iTemps {
+    width: 140px;
+  }
+  
+  .iName {
+    width: 200px;
+  }
+
+  .status{
+
+    font-style: bold;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+
+    border: 1px solid hsl(0, 0%, 0% , 0.1);
+    background-color: hsl(36, 68%, 89% , .55);
+
+    text-align: center;
+    
+
+  }
+  
+  .smallError {
+    color: rgb(159, 27, 27);
+    font-style: italic;
+    margin-top: -1px;
+    font-size: 12px;
+  }
+  
+  .formGroup {
+    border-radius: 5px;
+    /* border: 1px solid hsl(0, 0%, 0%, 0.1); */
+    /* background-color: hsla(25, 45%, 69%, 0.90); */
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+  }
+  
+  label {
+    font-weight: bold;
+    font-style: italic;
+    margin-right: 10px;
+    position: relative;
+    top: -15px; /* Adjust the value to move the label up */
+  }
+  
+
+  .errorSpace {
+    display: inline-block;
+    height:52px; /* Adjust the width as needed */
+  }

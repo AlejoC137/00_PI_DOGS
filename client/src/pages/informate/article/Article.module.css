@@ -1,0 +1,70 @@
+.container {
+  display: flex;
+  margin: 5px;
+  align-items: center;
+  width: 275px;
+  height: 160px;
+  border-radius: 5px;
+  border: 1px solid hsl(0, 0%, 0%, 0.1);
+  font-family: 'Nunito';
+  background-color: hsl(36, 68%, 89% , .95);
+}
+
+.content1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.ima {
+  object-fit: cover;
+  object-position: center;
+  border: 1px solid hsl(0, 0%, 0%, 0.1);
+  border-radius: 5px;
+  width: 80px;
+  height: 160px;
+  transition: transform 0.3s ease;
+  display: block;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.container:hover .ima {
+  transform: scale(1.1);
+}
+
+.content2 {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin-left: 10px;
+  height: 160px;
+
+}
+
+.tittle {
+  height: 20px;
+  overflow: hidden;
+  font-size: 14px;
+  /* white-space: nowrap; */
+  /* text-overflow: ellipsis; */
+  margin-top: 3;
+  /* margin-bottom: 5px; */
+  
+}
+
+.breafContainer {
+  overflow-y:scroll; 
+  /* height: 100%; */
+  /* padding-right: 15px; */
+  /* word-wrap: break-word; */
+  text-justify: auto;
+}
+
+.breaf {
+  text-justify: auto;
+  margin: 0;
+  font-size: 14px;
+  height: 140px;
+  /* overflow-y: auto;  */
+}

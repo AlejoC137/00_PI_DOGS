@@ -1,0 +1,33 @@
+
+.navDiv {
+  margin:30px;
+  /* display: flex; */
+  border-radius: 5px;
+  padding: 0;
+  /* justify-content: center; */
+  /* align-items: baseline; */
+  /* background-color: hsla(25, 45%, 69%, 0.25); */
+  /* border: 20px #d1691f; */
+  height: 60px;
+}
+
+
+.button{
+font-size: 20px;
+font-family: "Nunito";
+/* background-color: rgb(251, 57, 209); */
+height: fit-content;
+border-radius:5px ;
+align-items: centers;
+
+&:hover {
+  box-shadow: 0 0 10px #d1691f;
+}
+}
+
+
+
+.input{
+height: 25px;
+width: 267.5px;
+}

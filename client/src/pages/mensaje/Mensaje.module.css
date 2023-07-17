@@ -1,0 +1,14 @@
+.parrafo {
+     font-family: 'Nunito';
+     margin: 20px;
+}
+
+.conteiner {
+     background-color: hsla(25, 45%, 69%, 0.25);
+     border-radius: 5px;
+     border: 1px solid hsl(0, 0%, 0% , 0.1); /* Establece el ancho y el estilo del borde */
+}
+
+
+
+   

@@ -1,0 +1,145 @@
+.Pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Nunito';
+}
+
+.Pagination button {
+  font-family: 'Nunito';
+  font-size: 12px;
+  width: 24px; /* Tamaño deseado para los botones */
+  height: 24px; /* Tamaño deseado para los botones */
+  border-radius: 50%; /* Hace que los botones sean redondos */
+  border: none;
+  margin: 0 4px; /* Espacio entre los botones */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #ffffff; */
+  color: #000000;
+}
+
+.CurrentPage {
+  font-family: 'Nunito';
+  border: 1px solid hsl(0, 0%, 0%, 0.1);
+  width: 100px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.Cards {
+  font-family: 'Nunito';
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 5px;
+  /* min-height:1000px; */
+}
+
+.Card {
+  flex: 0 0 25%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.name {
+  font-family: 'Shiny Flakes';
+  letter-spacing: 1px;
+}
+
+.info {
+  font-family: 'Nunito';
+  font-size: 15px;
+  margin-top: -30px;
+  text-align: center;
+}
+
+.peso {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.temps {
+  margin-top: -10px;
+  font-size: 15px;
+  text-align: center;
+  width: 97.5%;
+}
+
+.container {
+  margin: 10px;
+  position: relative;
+  text-align: center;
+  width: 290px;
+  height: 550px;
+  border-radius: 3px;
+  overflow: hidden;
+  background-color: hsl(36, 68%, 89%, .55);
+  border: 1px solid hsl(0, 0%, 0%, 0.1);
+}
+
+.ima {
+  border: 1px solid hsl(0, 0%, 0%, 0.1);
+  border-radius: 3px;
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.3s ease;
+}
+
+.container:hover .ima {
+  transform: scale(1.1);
+}
+
+.filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.filter label {
+  font-family: 'Nunito';
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.filter input[type="text"],
+
+.filter select {
+  font-family: 'Nunito';
+  font-size: 14px;
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid hsl(0, 0%, 0%, 0.2);
+}
+
+.filter select {
+  width: 150px;
+}
+
+.filter input[type="text"] {
+  width: 200px;
+}
+
+.filter datalist {
+  display: none;
+}
+
+.filter select[name="origin"] {
+  width: 200px;
+}
+
+.filter select[name="sort"] {
+  width: 200Px;
+}
+
+.ActivePage {
+  background-color: #cfd7ae;
+  color: white;
+}

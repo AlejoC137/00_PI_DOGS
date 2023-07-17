@@ -1,0 +1,44 @@
+.detalle {
+    display: flex;
+    font-family: 'Nunito';
+    margin: 50px;
+    border: 1px solid hwb(0 0% 100% / 0.1);
+    /* Establece el ancho y el estilo del borde */
+    border-radius: 10px;
+    background-color: hsl(36, 68%, 89%, .35);
+}
+.woof {
+    font-family: 'Shiny Flakes';
+    margin-top: -5px;
+    text-align: center;
+}
+  .column {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .text {
+        flex: 1;
+        margin: 20px;
+        /* border: 1px solid hsl(0, 0%, 0%, 0.1); */
+    }
+    
+    .img {
+        display: block;
+        margin: 0 auto; /* Alineación horizontal al centro */
+        width: 60px;
+        transition: transform 0.3s ease;
+      }
+    
+    .detIMG {
+        margin: 35px;
+        border-radius: 5px;
+        border: 1px solid hsl(0, 0%, 0%, 0.1);
+    /* Establece el ancho y el estilo del borde */
+    /* width: calc(50% - 70px);  */
+    height: 450px;
+    border-radius: 10px;
+    /* object-fit: cover; */
+}
+  

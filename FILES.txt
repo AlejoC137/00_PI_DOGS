@@ -1,0 +1,12 @@
+FILE REOUTES:
+
+00_PI/api/index.js
+00_PI/api/.env
+00_PI/api/package.json
+00_PI/api/scr/app.js
+00_PI/api/scr/db.js
+00_PI/api/scr/controlers/DogControler.js
+00_PI/api/scr/handlers/handlers.js
+00_PI/api/scr/models/DogsModels.js
+00_PI/api/scr/models/TempermentModels.js
+00_PI/api/scr/routes/routes.js

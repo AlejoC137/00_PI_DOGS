@@ -1,0 +1,39 @@
+
+
+.woof {
+     margin-top: -5px; 
+}
+
+.img {
+     width: 300px;
+     transition: transform 0.3s ease;
+     &:hover {
+          transform: scale(1.1);
+          /* border: 20px; */
+          ;
+          .Mensaje {
+           width: 400px;
+               }}
+}
+
+.saludo {
+     font-family: 'Shiny Flakes';
+     font-size: 40px;
+}
+.Landing {
+     align-items: center;
+     height: 95vh;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+   margin: 50px;
+   font-family: 'Shiny Flakes';
+   border-radius: 5px 
+};
+.indi {
+     font-size: 40px;
+};
+
+
+
+
